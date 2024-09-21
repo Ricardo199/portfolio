@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import placeholderImage from './Untitled.png';
 
-function NavBar() {
+function CustomNavbar() {
     return (
         <Navbar data-bs-theme="dark" expand="lg" fixed='top'>
             <Container className="d-flex justify-content-between align-items-center">
@@ -16,7 +16,7 @@ function NavBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav>
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
+                        <Nav.Link href="#about">About Me</Nav.Link>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -31,4 +31,4 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export default CustomNavbar;

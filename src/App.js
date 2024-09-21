@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import NavBar from './Navbar';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar />
+        <Navbar />
         <h1>Welcome to My Portfolio!</h1>
         <p>
           Hi, I'm Ricardo Burgos, an associate system engineer currently studying at Centennial College, in my 3rd semester of the first year.
