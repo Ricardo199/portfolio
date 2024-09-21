@@ -25,6 +25,7 @@ function App() {
         <p>
           Thank you for visiting my portfolio. If you would like to learn more about me or get in touch, please click the button below.
         </p>
+        {/* if you are reading this, this was programmed on the 21st of september 2024 to a looped version of Freak -Surf Curse */}
         <button onClick={() => window.location.href='/about'}>About Me</button>
       </header>
     </div>
