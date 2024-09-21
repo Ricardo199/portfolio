@@ -2,15 +2,19 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import placeholderImage from './Untitled.png';
 
 function NavBar() {
     return (
-        <Navbar bg="dark" expand="lg" fixed='top'>
-            <Container>
-                <Navbar.Brand href="#home">Brand</Navbar.Brand>
+        <Navbar data-bs-theme="dark" expand="lg" fixed='top'>
+            <Container className="d-flex justify-content-between align-items-center">
+                <div className="d-flex align-items-center">
+                    <Navbar.Brand href="#home">Brand</Navbar.Brand>
+                    <img src={placeholderImage} width="50" height="50" className="d-inline-block align-top ms-2" alt="placeholder" />
+                </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav>
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#link">Link</Nav.Link>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
