@@ -2,11 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import placeholderImage from './Untitled.png';
+import placeholderImage from '../Untitled.png';
 
 function CustomNavbar() {
     return (
-        <Navbar data-bs-theme="dark" expand="lg" fixed='top'>
+        <Navbar bg="dark" variant="dark" expand="lg" fixed='top'>
             <Container className="d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center">
                     <Navbar.Brand href="#home">Brand</Navbar.Brand>

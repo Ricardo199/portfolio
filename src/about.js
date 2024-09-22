@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 
         <div className="App">
             <header className="App-header">
