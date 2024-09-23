@@ -11,7 +11,7 @@ function CustomNavbar() {
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container className="d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                        <Navbar.Brand href="#home">Brand</Navbar.Brand>
+                        <Navbar.Brand href="#home">Ricardo Burgos</Navbar.Brand>
                         <img src={placeholderImage} width="50" height="50" className="d-inline-block align-top ms-2" alt="placeholder" style={{ borderRadius: '50%' }} />
                     </div>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
