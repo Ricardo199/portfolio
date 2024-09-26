@@ -11,7 +11,7 @@ function Services() {
                         <Row className="justify-content-center">
                             <Col md={4} className="d-flex justify-content-center">
                                 <Card style={{ width: '18rem' }} className="m-3">
-                                    <Card.Img variant="top" src={"https://server2client.com/images/servletslogo.webp"} />
+                                    <Card.Img variant="top" src={"https://www.reachfirst.com/wp-content/uploads/2018/08/Web-Development.jpg"} />
                                     <Card.Body>
                                         <Card.Title>Web development</Card.Title>
                                         <Card.Text>
