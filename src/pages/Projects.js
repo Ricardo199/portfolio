@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
 
-function Projects(){
+function Projects() {
     <>
         <div className="App bg-dark text-light">
             <header className="App-header">
@@ -14,9 +14,10 @@ function Projects(){
                             <Card.Body>
                                 <Card.Title>Project 1</Card.Title>
                                 <Card.Text>
-                                    Java servlet app for managing an employee and their department to show off the functionality of the java servlet library
+                                    Java servlet app for managing an employee and their department to show off the functionality of the
+                                    java servlet library, because of certain limitations i am not able to run it but the code is here and functional
                                     <a href="https://github.com/Ricardo199/sis16emp/tree/main">
-                                    Github link, because of certain limitations i am not able to run it but the code is here and functional
+                                        Github link
                                     </a>
                                 </Card.Text>
                             </Card.Body>

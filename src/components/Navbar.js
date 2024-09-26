@@ -20,7 +20,7 @@ function CustomNavbar() {
                             <Nav.Link href='/Home'>Home </Nav.Link>
                             <Nav.Link href='/about'>About Me</Nav.Link>
                             <NavDropdown title="What I offer" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Projects</NavDropdown.Item>
+                                <NavDropdown.Item href="/Projects">Projects</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Services</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
