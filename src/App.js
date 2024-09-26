@@ -9,7 +9,6 @@ import Services from './pages/Services';
 
 function App() {
   return (
-    document.body.overscrollBehavior = 'none',
     <div>
       <Navbar />
       <BrowserRouter>
