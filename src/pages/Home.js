@@ -1,3 +1,14 @@
+/**
+ * Home.js
+ * 
+ * This file contains the Home component for the portfolio site.
+ * The Home component displays a welcome message and an introduction
+ * to Ricardo Burgos, along with information about his skills and experiences.
+ * 
+ * Author: Ricardo Burgos
+ * Date: September 21, 2024
+ */
+
 import React from 'react';
 
 function Home() {
@@ -24,7 +35,7 @@ function Home() {
           <p>
             Thank you for visiting my portfolio. If you would like to learn more about me or get in touch, please click the button below.
           </p>
-          {/* if you are reading this, this was programmed on the 21st of september 2024 to a looped version of Freak -Surf Curse */}
+          {/* Note: This was programmed on the 21st of September 2024 to a looped version of Freak - Surf Curse */}
         </header>
       </div>
     </>
