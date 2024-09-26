@@ -23,6 +23,30 @@ function Projects() {
                             </Card.Body>
                         </Card>
                     </div>
+                    <div className="d-flex justify-content-center">
+                        <Card style={{ width: '18rem' }} className="m-3">
+                            <Card.Img variant="top" src={"/portfolio/public/Screenshot 2024-09-25 230026.png"} />
+                            <Card.Body>
+                                <Card.Title>Project 2</Card.Title>
+                                <Card.Text>
+                                    Just a simple image carrousel using ajax, it requests images from a server and receives them along with some metadata
+                                    <a href="https://github.com/Ricardo199/ajax-homework">Github LInk</a>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="d-flex justify-content-center">
+                        <Card style={{ width: '18rem' }} className="m-3">
+                            <Card.Img variant="top" src={"/portfolio/public/Screenshot 2024-09-25 230743.png"} />
+                            <Card.Body>
+                                <Card.Title>Project 3</Card.Title>
+                                <Card.Text>
+                                    Just a simple canvas game i threw together for my js class, the objective is to click the alien in space before the time runs out
+                                    <a href="https://github.com/Ricardo199/canvasgame">Github LInk</a>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 </Container>
             </header>
         </div>
