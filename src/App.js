@@ -9,13 +9,14 @@ import Services from './pages/Services';
 
 function App() {
   return (
+    document.body.overscrollBehavior = 'none',
     <div>
       <Navbar />
       <BrowserRouter>
         <Routes>
           <Route index path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/About' element={<About />} />
           <Route path='/Projects' element={<Projects />} />
           <Route path='/Services' element={<Services />} />
         </Routes>

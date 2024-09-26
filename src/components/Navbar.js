@@ -18,7 +18,7 @@ function CustomNavbar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
                             <Nav.Link href='/Home'>Home </Nav.Link>
-                            <Nav.Link href='/about'>About Me</Nav.Link>
+                            <Nav.Link href='/About'>About Me</Nav.Link>
                             <NavDropdown title="What I offer" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/Projects">Projects</NavDropdown.Item>
                                 <NavDropdown.Item href="/Services">Services</NavDropdown.Item>
