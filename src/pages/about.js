@@ -10,7 +10,7 @@
 
 import '../App.css';
 import Container from 'react-bootstrap/esm/Container';
-import image from '../Untitled.png';
+import image from '../images/WhatsApp Image 2024-09-27 at 14.30.30_218e4837.jpg';
 
 function About() {
     return (
