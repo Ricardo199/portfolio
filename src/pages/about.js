@@ -8,8 +8,8 @@
  * Date: [Insert Date]
  */
 
-import Container from 'react-bootstrap/esm/Container';
 import '../App.css';
+import Container from 'react-bootstrap/esm/Container';
 import image from '../Untitled.png';
 
 function About() {

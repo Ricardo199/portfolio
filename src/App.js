@@ -33,19 +33,19 @@ import Services from './pages/Services';
  */
 function App() {
   return (
-    <div>
-      <Navbar />
-      <BrowserRouter>
+    <BrowserRouter>
+      <div>
+        <Navbar />
         <Routes>
           <Route index path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/About' element={<About />} />
-          <Route path='/Projects' element={<Projects />} />
-          <Route path='/Services' element={<Services />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/services' element={<Services />} />
         </Routes>
-      </BrowserRouter>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
