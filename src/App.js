@@ -8,10 +8,9 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/about';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Projects from './pages/Projects';
 import Services from './pages/Services';
+import Outlet from './components/Outlet';
 
 /**
  * Main application component.
@@ -34,17 +33,15 @@ import Services from './pages/Services';
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Navbar />
-        <Routes>
-          <Route index path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/services' element={<Services />} />
-        </Routes>
-        <Footer />
-      </div>
+      <Routes>
+        <Route path="/" element={<Outlet />}>
+          <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="services" element={<Services />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }
