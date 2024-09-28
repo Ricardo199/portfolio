@@ -10,7 +10,7 @@ import Home from './pages/Home';
 import About from './pages/about';
 import Projects from './pages/Projects';
 import Services from './pages/Services';
-import Outlet from './components/Outlet';
+import Dashboard from './components/Dashboard';
 
 /**
  * Main application component.
@@ -34,9 +34,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Outlet />}>
-          <Route index element={<Home />} />
-          <Route path="home" element={<Home />} />
+        <Route path="/" element={<Dashboard />}>
+          <Route path='/' element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="services" element={<Services />} />

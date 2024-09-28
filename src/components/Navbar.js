@@ -23,7 +23,7 @@ function CustomNavbar() {
                 <Container className="d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
                         {/* Brand name with a link to the Home page */}
-                        <Navbar.Brand href="/Home">Ricardo Burgos</Navbar.Brand>
+                        <Navbar.Brand href="/">Ricardo Burgos</Navbar.Brand>
                         {/* Placeholder image next to the brand name */}
                         <img src={placeholderImage} width="50" height="50" className="d-inline-block align-top ms-2" alt="placeholder" style={{ borderRadius: '50%' }} />
                     </div>
@@ -32,7 +32,7 @@ function CustomNavbar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
                             {/* Navigation links */}
-                            <Nav.Link href='/Home'>Home</Nav.Link>
+                            <Nav.Link href='/'>Home</Nav.Link>
                             <Nav.Link href='/About'>About Me</Nav.Link>
                             {/* Dropdown menu for additional links */}
                             <NavDropdown title="What I offer" id="basic-nav-dropdown">
