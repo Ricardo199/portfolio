@@ -62,7 +62,7 @@ function About() {
                         {/* CV Button */}
                         <button 
                             className="btn btn-primary m-3" 
-                            onClick={() => window.open('https://drive.google.com/file/d/1Z9aJsbmif0kqwzmMtdhU1XPQxBgIQSXR/view?usp=sharing', '_blank')}
+                            onClick={() => window.open('https://docs.google.com/document/d/108vHx-cEXsjiVt5mCXqY6ZVdTeckaEVGvXRtoswwebo/edit?usp=sharing', '_blank')}
                         >
                             My CV
                         </button>
