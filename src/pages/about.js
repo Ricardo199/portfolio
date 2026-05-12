@@ -9,10 +9,21 @@
  */
 
 import '../App.css';
-import Container from 'react-bootstrap/esm/Container';
+import { Container } from 'react-bootstrap';
 import image from '../images/WhatsApp Image 2024-09-27 at 14.30.30_218e4837.jpg';
 
 function About() {
+    const handleOpenCv = () => {
+        const newWindow = window.open(
+            'https://docs.google.com/document/d/108vHx-cEXsjiVt5mCXqY6ZVdTeckaEVGvXRtoswwebo/edit?usp=sharing',
+            '_blank',
+            'noopener,noreferrer'
+        );
+        if (newWindow) {
+            newWindow.opener = null;
+        }
+    };
+
     return (
         <>
             <div className="App bg-dark text-light">
@@ -62,7 +73,7 @@ function About() {
                         {/* CV Button */}
                         <button 
                             className="btn btn-primary m-3" 
-                            onClick={() => window.open('https://docs.google.com/document/d/108vHx-cEXsjiVt5mCXqY6ZVdTeckaEVGvXRtoswwebo/edit?usp=sharing', '_blank')}
+                            onClick={handleOpenCv}
                         >
                             My CV
                         </button>
