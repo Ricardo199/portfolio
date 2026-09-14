@@ -45,6 +45,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## Dependency security note
+
+This project pins `js-yaml` with npm `overrides` to `4.3.2` in `package.json` so Create React App transitive dependencies resolve to a patched version.
+
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
